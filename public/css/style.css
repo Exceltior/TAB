@@ -4,7 +4,11 @@ body {
     /* The html and body elements cannot have any padding or margin. */
     background: none repeat scroll 0% 0% #F1F1F1;
     position: relative;
-   
+
+}
+
+body{
+     overflow-x:hidden; 
 }
 
 .conteudo{

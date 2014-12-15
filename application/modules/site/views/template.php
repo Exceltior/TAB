@@ -22,18 +22,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?php echo base_url('index.php/site/home');?>">CI Skeleton</a>
+        <a class="navbar-brand" href="<?php echo base_url('index.php/site/home');?>">The AnonyBay</a>
     </div>
     <div class="navbar-collapse collapse navbar-responsive-collapse">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="<?php echo base_url('index.php/site/home');?>">Home</a></li>
 
-
-        </ul>
-
+      
 
     </div>
 </div>
+
+
+<form class="form-horizontal" role="form" style="margin-top:5%">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Buscar</label>
+    <div class="col-sm-7">
+      <input type="text" class="form-control" id="buscar" placeholder="filmes,videos,animes">
+    </div>
+     <button type="submit" class="btn btn-default">Buscar</button>
+  </div>
+
+ 
+  
+  </div>
+</form>
+
 <div class="conteudo">
 <?php echo $contents ?>
 </div>
