@@ -1,41 +1,46 @@
 html,
 body {
-    height: 950px;
+
     /* The html and body elements cannot have any padding or margin. */
     background: none repeat scroll 0% 0% #F1F1F1;
     position: relative;
 
 }
-
 body{
-     overflow-x:hidden; 
+    overflow-x:hidden;
+
+}
+p{
+    margin: 5px;
 }
 
-.conteudo{
+#conteudo{
     min-height: 100%;
 
 }
-* html .conteudo {
+* html #conteudo {
     height: 100%; /* hack para IE6 que trata height como min-height */
+    height: 600px;
 }
 
 
+#bannerTop{
+ width: 104%;
+left: -2%;
+margin: 0;
+    padding: 0;
+    margin-top:-2%;
+}
 
 
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-
+margin-bottom: 0 ;
     height: 100px;
     width: 100%;
 }
-#footer {
 
-    position: relative;
-    bottom: 0;
-    margin-bottom: 0;
-
-}
 
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
@@ -47,15 +52,3 @@ body{
     }
 }
 
-/* Custom page CSS
-   -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-.container {
-    width: auto;
-    max-width: 680px;
-}
-.container .credit {
-    margin: 20px 0;
-    color: #000;
-}
